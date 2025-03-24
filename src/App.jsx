@@ -19,7 +19,7 @@ const App = () => {
     <>
       <div className="container">
         <h1 className="pt-10 text-5xl font-bold ml-20">Users</h1>
-        <div className="grid grid-cols-2 p-10">
+        <div className="grid grid-cols-2">
         {users.map((user) => (
           <Card key={user.id} img={user.img} name={user.name} title={user.title} />
         ))}
