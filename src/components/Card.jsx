@@ -3,7 +3,7 @@ import React from "react";
 const Card = ({ img, name, title }) => {
   return (
     <>
-      <div className=" flex items-center w-[636px] h-[151px] bg-[#F6F6F6] mt-10 rounded-3xl shadow-xl shadow-black/20 mx-auto">
+      <div className="flex items-center w-[636px] h-[151px] bg-[#F6F6F6] rounded-3xl shadow-xl shadow-black/20 mx-auto p-4 space-x-4">
         <img
           className="flex items-center justify-center w-35 h-35 bg-[#FFEFD5] rounded-full ml-8"
           src={img}

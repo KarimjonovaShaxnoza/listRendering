@@ -17,12 +17,17 @@ const users = [
 const App = () => {
   return (
     <>
-      <div className="container">
-        <h1 className="pt-10 text-5xl font-bold ml-20">Users</h1>
-        <div className="grid grid-cols-2">
-        {users.map((user) => (
-          <Card key={user.id} img={user.img} name={user.name} title={user.title} />
-        ))}
+      <div className="container gap-10">
+        <h1 className="pt-10 text-5xl font-bold ml-10 ">Users</h1>
+        <div className="grid grid-cols-2 gap-20 mb-20 mt-20">
+          {users.map((user) => (
+            <Card
+              key={user.id}
+              img={user.img}
+              name={user.name}
+              title={user.title}
+            />
+          ))}
         </div>
       </div>
     </>
