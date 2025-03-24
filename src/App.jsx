@@ -2,16 +2,51 @@ import React from "react";
 import Card from "./components/Card";
 
 const users = [
-  {id: 1,img: "/male.svg",name: "Farrux Mengboyev",title: "Frontend Developer",},
-  {id: 2,img: "/nizom.svg",name: "Nizomiddin Rahimberdiyev",title: "Web Design",},
-  {id: 3,img: "/ilyos.svg", name: "Ilyosbek", title: "Web Developer" },
-  {id: 4,img: "/murod.svg",name: "Murodbek Fayzikhanov",title: "Backend Developer",},
-  {id: 5,img: "/mirfazil.svg",name: "Mirfazil Mirsharipov",title: "Frontend Developer",},
-  { id: 6, img: "/temur.svg", name: "Temur Alixanov", title: "Blogger" },
-  { id: 7, img: "/dilshod.svg", name: "dili.me", title: "Blogger" },
-  { id: 8, img: "/aslam.svg", name: "Aslamboy", title: "PUBG" },
-  { id: 9, img: "/omonxon.svg", name: "Omonxon", title: "Blogger" },
-  { id: 10, img: "/isom.svg", name: "Isomtv", title: "YouTuber" },
+  { id: 1, name: "Ali Akmal", img: "male.svg", title: "Frontend Developer" },
+  {
+    id: 2,
+    name: "Malika Qobilova",
+    img: "nizom.svg",
+    title: "Backend Developer",
+  },
+  {
+    id: 3,
+    name: "Diyorbek Norboyev",
+    img: "ilyos.svg",
+    title: "UI/UX Designer",
+  },
+  { id: 4, name: "Shahlo Islomova", img: "male.svg", title: "Project Manager" },
+  {
+    id: 5,
+    name: "Kamol Abdurahmonov",
+    img: "murod.svg",
+    title: "Full Stack Developer",
+  },
+  {
+    id: 6,
+    name: "Xurshid Fayzulloyev",
+    img: "mirfazil.svg",
+    title: "QA Engineer",
+  },
+  {
+    id: 7,
+    name: "Madina Jalilova",
+    img: "temur.svg",
+    title: "DevOps Engineer",
+  },
+  {
+    id: 8,
+    name: "Sardor Boboyev",
+    img: "dilshod.svg",
+    title: "Data Scientist",
+  },
+  { id: 9, name: "Otabek Soliyev", img: "aslam.svg", title: "Product Owner" },
+  {
+    id: 10,
+    name: "Gulnora Matmurodova",
+    img: "omonxon.svg",
+    title: "Marketing Specialist",
+  },
 ];
 
 const App = () => {
